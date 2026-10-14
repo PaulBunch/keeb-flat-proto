@@ -1,0 +1,21 @@
+# --- IDEs & Editors ---
+.zed/
+.vscode/
+.idea/
+
+# --- CAD / EDA Backups & Autosaves ---
+*.dwg
+*.bak
+*.bck
+*-bak
+*.ocs.lock
+*.ocs-autosave.sv$
+
+# --- Project temporary & dev files ---
+changes.diff
+/trash/
+/docs/temp.md
+
+# --- Local heavy media & research folders (not tracked in Git) ---
+/docs/overview/
+/docs/promo/
