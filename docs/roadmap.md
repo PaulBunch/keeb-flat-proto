@@ -25,7 +25,7 @@ SPDX-License-Identifier: CERN-OHL-P-2.0
 
 ## Design
 
-- [ ] Reference layout analysis (TOTEM and others vs finger zones)
+- [x] Reference layout analysis (TOTEM and others vs finger zones)
 - [ ] Initial key layout design
 - [ ] Cardboard mockup with old keycaps and live refinement
 - [ ] Microswitch keycap & stem system design (anti-tilt / anti-bind)
