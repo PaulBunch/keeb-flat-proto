@@ -3,7 +3,9 @@ SPDX-FileCopyrightText: 2026 Paul Bunch
 SPDX-License-Identifier: CERN-OHL-P-2.0
 -->
 
-# Keyboard references
+# References
+
+## Keyboard
 
 - [LYNX](https://www.lynxware.org/)
 - [Kailh PG1316S](https://github.com/mikeholscher/zmk-config-mikefive)
@@ -22,3 +24,19 @@ SPDX-License-Identifier: CERN-OHL-P-2.0
 - [Visorbearer](https://github.com/carrefinho/visorbearer)
 - [Nostrum](https://github.com/bennytrouser/nostrum)
 - [katori](https://github.com/grassfedreeve/katori)
+- [Dygma Defy](https://dygma.com/products/dygma-defy)
+- [Kyria](https://github.com/splitkb/kyria)
+- [Redox](https://github.com/mattdibi/redox-keyboard)
+
+## Keycaps
+
+- [CLP](https://github.com/vvhg1/clp-keycaps)
+
+## Trackballs
+
+- [Ortho-Ball](https://github.com/juncho26/Ortho-Ball)
+- [maghold-trackball-case](https://github.com/shizu0428/maghold-trackball-case)
+
+## Anecdotes
+
+- [Thumbs can get overuse injuries](https://getreuer.info/posts/keyboards/thumb-ergo/index.html#anecdotes)

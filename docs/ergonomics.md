@@ -29,8 +29,12 @@ These notes are based on the analysis of the [finger motion map](../cad/ergonomi
 
 * The thumb has the largest motion zone — comparable in area to the combined zones of the other four fingers.
 * The portion of the zone that lies under the palm remains reachable, but is most comfortable when the hand is slightly elevated.
-  * *Conclusion:* The zone size justifies exploring two rows of keys in the thumb cluster.
-  * *Caveat:* Two keys **in the same column** under the thumb are often awkward in practice: the thumb bends unnaturally, and accidental presses are more likely when the palm rests. If a second row is kept, prefer different physical heights (one row higher/lower relative to the desk), recessed or low-profile switches, or a non-strictly vertical arrangement — see [design-notes.md](design-notes.md).
+  * *Conclusion:* The zone area justifies studying two rows of keys in the thumb cluster.
+  * *Caveats:*
+    * The thumb usually presses with the **full pad**, not the tip. A second row often requires “stepping over” the nearer row — which leads to an awkward **claw curl**.
+    * Two keys **in the same column** on a flat board are often awkward in practice: misclick risk rises when the palm rests; with a short thumb the lower row sits too close to the palm.
+    * Using the edge of the reach zone for **frequent** actions is not only uncomfortable but can contribute to joint overuse. See [Getreuer’s thumb-overuse anecdotes](https://getreuer.info/posts/keyboards/thumb-ergo/index.html#anecdotes).
+    * If a second row is kept, prefer: different physical row heights; a lower-profile key nearer the palm; or keys arranged on an arc (X offset instead of a pure Y pair). More detail in [design-notes.md](design-notes.md).
 
 ### 3. Column Geometry and Fan Layout (Splay)
 
@@ -46,6 +50,7 @@ These notes are based on the analysis of the [finger motion map](../cad/ergonomi
   * *Principle:* Key centers should be located at these “maximum comfort” points, even if this results in uneven gaps between keys.
 
 * **Static vs dynamic reach:** At the edge of a zone, a key may still be reachable when the hand is held still. During actual typing the hand often lifts reflexively to avoid twisting the finger, then “hovers” instead of returning to a stable rest — which adds strain. Key placement should target comfort in motion, not only static reach.
+  * The same applies to the thumb: static reach to the zone edge does not mean a high-use key belongs there (see the caveats in §2).
 
 * **Pinky:** Among the four non-thumb fingers, the pinky has the largest motion zone — a fact often underestimated in conventional layouts.
 

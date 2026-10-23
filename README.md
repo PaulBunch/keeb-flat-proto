@@ -43,6 +43,4 @@ Work in progress — see the [Roadmap](docs/roadmap.md) for current progress and
 
 ## License
 
-This project is licensed under the **CERN Open Hardware Licence Version 2 – Permissive** (CERN-OHL-P-2.0).
-
-See the [LICENSE](LICENSE) file for the full text.
+[CERN-OHL-P-2.0](LICENSE)
