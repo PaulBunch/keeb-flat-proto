@@ -10,6 +10,15 @@
 *-bak
 *.ocs.lock
 *.ocs-autosave.sv$
+*.solidcraft
+*.solidcraft.lock
+*.step
+*.stp
+*.stl
+*.3mf
+*.json.lock
+cad/export/
+cad/print/
 
 # --- Project temporary & dev files ---
 changes.diff

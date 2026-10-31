@@ -1,0 +1,991 @@
+{
+  "format": "solidcraft/43",
+  "name": "membrane",
+  "units": "mm",
+  "params": [
+    {
+      "name": "d1",
+      "expr": "7.5/2",
+      "unit": "mm",
+      "model": true
+    },
+    {
+      "name": "d2",
+      "expr": "12/2",
+      "unit": "mm",
+      "model": true
+    },
+    {
+      "name": "d3",
+      "expr": ".5",
+      "unit": "mm",
+      "model": true
+    },
+    {
+      "name": "d4",
+      "expr": "1.2",
+      "unit": "mm",
+      "model": true
+    },
+    {
+      "name": "d5",
+      "expr": "0.8",
+      "unit": "mm",
+      "model": true
+    },
+    {
+      "name": "d6",
+      "expr": "2",
+      "unit": "mm",
+      "model": true
+    },
+    {
+      "name": "d7",
+      "expr": "1.5",
+      "unit": "mm",
+      "model": true
+    },
+    {
+      "name": "d8",
+      "expr": "5.5",
+      "unit": "mm",
+      "model": true
+    },
+    {
+      "name": "d9",
+      "expr": "1.5",
+      "unit": "mm",
+      "model": true
+    },
+    {
+      "name": "d10",
+      "expr": "1",
+      "unit": "mm",
+      "model": true
+    },
+    {
+      "name": "d11",
+      "expr": "2",
+      "unit": "mm",
+      "model": true
+    },
+    {
+      "name": "d14",
+      "expr": "2.3",
+      "unit": "mm",
+      "model": true
+    },
+    {
+      "name": "d13",
+      "expr": "1",
+      "unit": "mm",
+      "model": true
+    },
+    {
+      "name": "d15",
+      "expr": "0.5",
+      "unit": "mm",
+      "model": true
+    },
+    {
+      "name": "d26",
+      "expr": "14",
+      "unit": "mm",
+      "model": true
+    }
+  ],
+  "features": [
+    {
+      "id": 1,
+      "name": "Sketch1",
+      "suppressed": false,
+      "type": "sketch",
+      "plane": {
+        "type": "flipped",
+        "base": {
+          "type": "origin",
+          "name": "XZ"
+        }
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "l1.start",
+            "pos": [
+              -6.0,
+              0.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l1.end",
+            "pos": [
+              -6.0,
+              1.5
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l2.end",
+            "pos": [
+              -3.75,
+              4.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l3.end",
+            "pos": [
+              -3.75,
+              5.5
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l4.end",
+            "pos": [
+              -2.55,
+              5.5
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l5.end",
+            "pos": [
+              -2.55,
+              4.3
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l6.end",
+            "pos": [
+              0.0,
+              4.3
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l7.end",
+            "pos": [
+              0.0,
+              2.3
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l8.end",
+            "pos": [
+              -1.0,
+              2.3
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l9.end",
+            "pos": [
+              -1.0,
+              3.5
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l10.end",
+            "pos": [
+              -3.5273187976463145,
+              3.5
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l11.end",
+            "pos": [
+              -5.5,
+              1.3081319973847945
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l12.end",
+            "pos": [
+              -5.5,
+              0.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "p1",
+            "pos": [
+              -4.875,
+              2.75
+            ],
+            "fixed": false
+          },
+          {
+            "id": "p2",
+            "pos": [
+              -4.503352926876417,
+              2.415517634188775
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "l1",
+            "type": "line",
+            "a": 1,
+            "b": 2,
+            "construction": false
+          },
+          {
+            "id": "l2",
+            "type": "line",
+            "a": 2,
+            "b": 3,
+            "construction": false
+          },
+          {
+            "id": "l3",
+            "type": "line",
+            "a": 3,
+            "b": 4,
+            "construction": false
+          },
+          {
+            "id": "l4",
+            "type": "line",
+            "a": 4,
+            "b": 5,
+            "construction": false
+          },
+          {
+            "id": "l5",
+            "type": "line",
+            "a": 5,
+            "b": 6,
+            "construction": false
+          },
+          {
+            "id": "l6",
+            "type": "line",
+            "a": 6,
+            "b": 7,
+            "construction": false
+          },
+          {
+            "id": "l7",
+            "type": "line",
+            "a": 7,
+            "b": 8,
+            "construction": false
+          },
+          {
+            "id": "l8",
+            "type": "line",
+            "a": 8,
+            "b": 9,
+            "construction": false
+          },
+          {
+            "id": "l9",
+            "type": "line",
+            "a": 9,
+            "b": 10,
+            "construction": false
+          },
+          {
+            "id": "l10",
+            "type": "line",
+            "a": 10,
+            "b": 11,
+            "construction": false
+          },
+          {
+            "id": "l11",
+            "type": "line",
+            "a": 11,
+            "b": 12,
+            "construction": false
+          },
+          {
+            "id": "l12",
+            "type": "line",
+            "a": 12,
+            "b": 13,
+            "construction": false
+          },
+          {
+            "id": "l13",
+            "type": "line",
+            "a": 13,
+            "b": 1,
+            "construction": false
+          },
+          {
+            "id": "l14",
+            "type": "line",
+            "a": 14,
+            "b": 15,
+            "construction": true
+          }
+        ],
+        "constraints": [
+          {
+            "id": "k1",
+            "type": "vertical",
+            "l": 0
+          },
+          {
+            "id": "k2",
+            "type": "vertical",
+            "l": 2
+          },
+          {
+            "id": "k3",
+            "type": "horizontal",
+            "l": 3
+          },
+          {
+            "id": "k4",
+            "type": "vertical",
+            "l": 4
+          },
+          {
+            "id": "k5",
+            "type": "horizontal",
+            "l": 5
+          },
+          {
+            "id": "k6",
+            "type": "vertical",
+            "l": 6
+          },
+          {
+            "id": "k7",
+            "type": "horizontal",
+            "l": 7
+          },
+          {
+            "id": "k8",
+            "type": "vertical",
+            "l": 8
+          },
+          {
+            "id": "k9",
+            "type": "horizontal",
+            "l": 9
+          },
+          {
+            "id": "k10",
+            "type": "parallel",
+            "a": 1,
+            "b": 10
+          },
+          {
+            "id": "k11",
+            "type": "vertical",
+            "l": 11
+          },
+          {
+            "id": "k12",
+            "type": "horizontal",
+            "l": 12
+          },
+          {
+            "id": "k13",
+            "type": "point_line_distance",
+            "p": 0,
+            "l": 2,
+            "value": 3.75,
+            "param": "d1",
+            "text": [
+              -0.1500000000007703,
+              17.199999999999825
+            ]
+          },
+          {
+            "id": "k14",
+            "type": "point_line_distance",
+            "p": 0,
+            "l": 0,
+            "value": 6.0,
+            "param": "d2",
+            "text": [
+              1.9791140071657543,
+              -4.300000000000277
+            ]
+          },
+          {
+            "id": "k15",
+            "type": "midpoint",
+            "p": 14,
+            "l": 1
+          },
+          {
+            "id": "k16",
+            "type": "point_on_curve",
+            "p": 15,
+            "c": 10
+          },
+          {
+            "id": "k17",
+            "type": "point_on_curve",
+            "p": 15,
+            "c": 10
+          },
+          {
+            "id": "k18",
+            "type": "perpendicular",
+            "a": 1,
+            "b": 13
+          },
+          {
+            "id": "k19",
+            "type": "equal",
+            "a": 13,
+            "b": 12
+          },
+          {
+            "id": "k20",
+            "type": "length",
+            "l": 12,
+            "value": 0.5,
+            "param": "d3",
+            "text": [
+              -0.2182999733477402,
+              1.3999998506471396
+            ]
+          },
+          {
+            "id": "k21",
+            "type": "length",
+            "l": 3,
+            "value": 1.2,
+            "param": "d4",
+            "text": [
+              0.7057132507149984,
+              1.7898993291401872
+            ]
+          },
+          {
+            "id": "k22",
+            "type": "point_line_distance",
+            "p": 6,
+            "l": 9,
+            "value": 0.8,
+            "param": "d5",
+            "text": [
+              0.08470814043906127,
+              -0.7536172062296784
+            ]
+          },
+          {
+            "id": "k23",
+            "type": "point_line_distance",
+            "p": 4,
+            "l": 9,
+            "value": 2.0,
+            "param": "d6",
+            "text": [
+              0.9974128536454625,
+              5.250000000529454
+            ]
+          },
+          {
+            "id": "k24",
+            "type": "length",
+            "l": 2,
+            "value": 1.5,
+            "param": "d7",
+            "text": [
+              0.8899756148969905,
+              1.7499999997962425
+            ]
+          },
+          {
+            "id": "k25",
+            "type": "point_line_distance",
+            "p": 4,
+            "l": 12,
+            "value": 5.5,
+            "param": "d8",
+            "text": [
+              -0.6317318507401604,
+              8.650000000932764
+            ]
+          },
+          {
+            "id": "k26",
+            "type": "length",
+            "l": 0,
+            "value": 1.5,
+            "param": "d9",
+            "text": [
+              0.7252006470825771,
+              1.4000000000000266
+            ]
+          },
+          {
+            "id": "k27",
+            "type": "point_on_curve",
+            "p": 0,
+            "c": 6
+          },
+          {
+            "id": "k28",
+            "type": "point_on_curve",
+            "p": 0,
+            "c": 12
+          },
+          {
+            "id": "k29",
+            "type": "length",
+            "l": 7,
+            "value": 1.0,
+            "param": "d10",
+            "text": [
+              0.31706632094980036,
+              0.7336740402459587
+            ]
+          },
+          {
+            "id": "k30",
+            "type": "point_line_distance",
+            "p": 6,
+            "l": 7,
+            "value": 2.0,
+            "param": "d11",
+            "text": [
+              -0.1968370201229792,
+              -3.69
+            ]
+          }
+        ],
+        "counters": {
+          "k": 30,
+          "l": 14,
+          "p": 2
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Revolve1",
+      "suppressed": false,
+      "body_names": [
+        "dome"
+      ],
+      "param_names": [
+        "d12"
+      ],
+      "type": "revolve",
+      "sketch": 1,
+      "profiles": {
+        "type": "curves",
+        "loops": [
+          [
+            "l1",
+            "l13",
+            "l12",
+            "l11",
+            "l10",
+            "l9",
+            "l8",
+            "l7",
+            "l6",
+            "l5",
+            "l4",
+            "l3",
+            "l2"
+          ]
+        ]
+      },
+      "axis": {
+        "type": "world",
+        "axis": "Z"
+      },
+      "angle": "360 deg",
+      "operation": "new_body",
+      "convention": "sketch_normal"
+    },
+    {
+      "id": 5,
+      "name": "Sketch2",
+      "suppressed": false,
+      "type": "sketch",
+      "plane": {
+        "type": "flipped",
+        "base": {
+          "type": "origin",
+          "name": "XZ"
+        }
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "p1",
+            "pos": [
+              -1.149999999769588,
+              -0.5
+            ],
+            "fixed": false
+          },
+          {
+            "id": "p2",
+            "pos": [
+              1.1500000002304118,
+              -0.5
+            ],
+            "fixed": false
+          },
+          {
+            "id": "p3",
+            "pos": [
+              1.1500000002609816,
+              1.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "p4",
+            "pos": [
+              -1.1499999997390182,
+              1.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "p5",
+            "pos": [
+              1.1527341369698846e-10,
+              -0.5
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "l1",
+            "type": "line",
+            "a": 1,
+            "b": 2,
+            "construction": false
+          },
+          {
+            "id": "l2",
+            "type": "line",
+            "a": 2,
+            "b": 3,
+            "construction": false
+          },
+          {
+            "id": "l3",
+            "type": "line",
+            "a": 3,
+            "b": 4,
+            "construction": false
+          },
+          {
+            "id": "l4",
+            "type": "line",
+            "a": 4,
+            "b": 1,
+            "construction": false
+          },
+          {
+            "id": "l5",
+            "type": "line",
+            "a": 0,
+            "b": 5,
+            "construction": true
+          }
+        ],
+        "constraints": [
+          {
+            "id": "k1",
+            "type": "horizontal",
+            "l": 0
+          },
+          {
+            "id": "k2",
+            "type": "horizontal",
+            "l": 2
+          },
+          {
+            "id": "k3",
+            "type": "vertical",
+            "l": 1
+          },
+          {
+            "id": "k4",
+            "type": "vertical",
+            "l": 3
+          },
+          {
+            "id": "k6",
+            "type": "length",
+            "l": 2,
+            "value": 2.3,
+            "param": "d14",
+            "text": [
+              0.6199999999450745,
+              -1.613253012048193
+            ]
+          },
+          {
+            "id": "k8",
+            "type": "point_line_distance",
+            "p": 0,
+            "l": 2,
+            "value": 1.0,
+            "param": "d13",
+            "text": [
+              -0.35503104961911003,
+              -1.96
+            ]
+          },
+          {
+            "id": "k9",
+            "type": "point_line_distance",
+            "p": 0,
+            "l": 0,
+            "value": 0.5,
+            "param": "d15",
+            "text": [
+              -0.12496895038088997,
+              1.78
+            ]
+          },
+          {
+            "id": "k10",
+            "type": "midpoint",
+            "p": 5,
+            "l": 0
+          },
+          {
+            "id": "k11",
+            "type": "vertical",
+            "l": 4
+          }
+        ],
+        "counters": {
+          "k": 11,
+          "l": 5,
+          "p": 5
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "Extrude1",
+      "suppressed": false,
+      "param_names": [
+        "d16"
+      ],
+      "type": "extrude",
+      "sketch": 5,
+      "profiles": {
+        "type": "curves",
+        "loops": [
+          [
+            "l1",
+            "l2",
+            "l3",
+            "l4"
+          ]
+        ]
+      },
+      "extent": {
+        "distance": "10 mm",
+        "convention": "total_distance",
+        "direction": "positive"
+      },
+      "operation": "cut"
+    },
+    {
+      "id": 12,
+      "name": "CircularPattern1",
+      "suppressed": false,
+      "param_names": [
+        "d17",
+        "d18"
+      ],
+      "type": "pattern",
+      "features": [
+        8
+      ],
+      "pattern": {
+        "type": "circular",
+        "origin": [
+          -4.0583607692093436e-14,
+          -8.116721538418687e-14,
+          7.419243108495834
+        ],
+        "axis": [
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "count": "4",
+        "angle": "360",
+        "axis_ref": {
+          "type": "face",
+          "at": [
+            -1.973305727610455,
+            -3.632926601952146,
+            2.8193458807919956
+          ],
+          "name": "F2:side:l11#1"
+        }
+      }
+    },
+    {
+      "id": 15,
+      "name": "Sketch4",
+      "suppressed": false,
+      "type": "sketch",
+      "plane": {
+        "type": "origin",
+        "name": "XY"
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "c1.center",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "c1",
+            "type": "circle",
+            "c": 1,
+            "r": 7.0,
+            "construction": false
+          }
+        ],
+        "constraints": [
+          {
+            "id": "k1",
+            "type": "coincident",
+            "p": 0,
+            "q": 1
+          },
+          {
+            "id": "k2",
+            "type": "diameter",
+            "c": 0,
+            "value": 14.0,
+            "param": "d26"
+          }
+        ],
+        "counters": {
+          "c": 1,
+          "k": 2
+        },
+        "view": {
+          "slice": true
+        }
+      }
+    },
+    {
+      "id": 16,
+      "name": "Extrude2",
+      "suppressed": false,
+      "body_names": [
+        "film"
+      ],
+      "param_names": [
+        "d27"
+      ],
+      "type": "extrude",
+      "sketch": 15,
+      "profiles": {
+        "type": "curves",
+        "loops": [
+          [
+            "c1"
+          ]
+        ]
+      },
+      "extent": {
+        "distance": ".3",
+        "convention": "total_distance",
+        "direction": "negative"
+      },
+      "operation": "new_body"
+    }
+  ],
+  "next_id": 17,
+  "reserved_body_names": [
+    "Body1",
+    "Body2",
+    "Body3",
+    "Body4"
+  ],
+  "next_component_color_index": 0,
+  "materials": {
+    "cup": "PLA"
+  },
+  "appearances": {
+    "bodies": {
+      "dome": {
+        "name": "Polycarbonate - Clear",
+        "color": [
+          210,
+          226,
+          240
+        ],
+        "opacity": 0.35
+      },
+      "film": {
+        "name": "Custom",
+        "color": [
+          148,
+          188,
+          238
+        ],
+        "opacity": 0.18
+      }
+    }
+  },
+  "visibility": {
+    "hidden_bodies": [],
+    "hidden_occurrences": [],
+    "hidden_origin": [],
+    "hidden_sketches": [
+      1,
+      5
+    ],
+    "shown_sketches": []
+  }
+}
